@@ -1,0 +1,145 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.container1 {
+    display: grid;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 12px;
+    height: 350px;
+    width: 350px;
+}
+
+.img {
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 30px;
+    width: 30px;
+} 
+
+.text {
+    width: 350px;
+    padding-left: 12px;
+}
+
+.star {
+    margin-bottom: 260px;
+    background-color: hsl(214, 20%, 23%);
+    border-radius: 30px;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.how {
+    color: white;
+    font-size: 25px;
+}
+
+.feedback {
+    color: rgb(131, 130, 130);
+    font-size: 15px;
+}
+
+.number {
+    display: grid;
+    grid-template-columns: 19% 1fr 1fr 1fr 1fr;
+    gap: 1px;
+    margin-left: 9px;
+    height: 13px;
+    padding-bottom: 120px;
+}
+
+.n1 {
+    background-color: hsl(214, 20%, 23%);
+    border-radius: 100px;
+    padding: 13px 13px 13px 16px;
+    width: 15px;
+    color: white;
+    color: white;
+}
+
+.n2 {
+    background-color: hsl(214, 20%, 23%);
+    border-radius: 100px;
+    padding: 13px 13px 13px 16px;
+    width: 15px;
+    color: white;
+}
+
+.n3 {
+    background-color: hsl(214, 20%, 23%);
+    border-radius: 100px;
+    padding: 13px 13px 13px 16px;
+    width: 15px;
+    color: white;
+}
+
+.n4 {
+    background-color: hsl(214, 20%, 23%);
+    border-radius: 100px;
+    padding: 13px 13px 13px 16px;
+    width: 15px;
+    color: white;
+}
+
+.n5 {
+    background-color: hsl(214, 20%, 23%);
+    border-radius: 100px;
+    padding: 13px 13px 13px 16px;
+    width: 15px;
+    color: white;
+}
+
+.n1:hover {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+
+.n2:hover {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+
+.n3:hover {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+
+.n4:hover {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+
+.n5:hover {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: hsl(214, 20%, 23%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    width: 320px;
+    border-radius: 18px;
+    margin-left: 15px;
+    margin-top: -60px;
+}
+
+.submit:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
